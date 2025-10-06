@@ -9,7 +9,7 @@ describe('orderByProps', () => {
       attack: 80,
       defence: 40
     };
-    const order = ['name', 'level'];
+    const order = ['name', 'level']; // порядок сортировки
     const result = orderByProps(obj, order);
 
     expect(result).toEqual([
